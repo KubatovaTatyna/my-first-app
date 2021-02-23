@@ -15,6 +15,9 @@ function Person(props) {
   </div>;
 }
 
+function Sum(props) {
+  return <div className="person">{props.a + props.b}</div>
+}
 
 function App() {
   return (
