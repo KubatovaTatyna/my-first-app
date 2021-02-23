@@ -18,7 +18,9 @@ function Person(props) {
 function Sum(props) {
   return <div className="person">{props.a + props.b}</div>
 }
-
+function RandomNumber(props) {
+  return Math.floor(Math.random(props.min , props.max));
+}
 function App() {
   return (
     <div className="App">
