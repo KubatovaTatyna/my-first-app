@@ -14,6 +14,8 @@ function Person(props) {
     <strong>{smokes}</strong>
   </div>;
 }
+
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,12 @@ function App() {
       <Person name="Mark Zukerberg" age={36} smokes={true}>Haking</Person>
       <Person name="Kubatova Tatyna" age={17}>Reading</Person>
       <Person name="Justin Biber" age={28}>Singing</Person>
+
+
+      <Sum a={5} b={7}></Sum>
+      <RandomNumber min={5} max={10}></RandomNumber>
+      <BiggerNumber a={5} b={5}></BiggerNumber>
+      <ListItems list={["Apple ", "Orange ", "Lime ", "Banana "]}></ListItems>
     </div>
 
   );
