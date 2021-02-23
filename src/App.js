@@ -32,6 +32,9 @@ function BiggerNumber(props) {
     return 'Числа равны';
   }
 }
+function ListItems(props) {
+  return <div className="person">{props.list}</div>
+}
 function App() {
   return (
     <div className="App">
