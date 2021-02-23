@@ -21,6 +21,17 @@ function Sum(props) {
 function RandomNumber(props) {
   return Math.floor(Math.random(props.min , props.max));
 }
+function BiggerNumber(props) {
+  if (props.a > props.b) {
+    return props.a
+  }
+  else if (props.a < props.b) {
+    return props.b
+  }
+  else {
+    return 'Числа равны';
+  }
+}
 function App() {
   return (
     <div className="App">
