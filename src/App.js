@@ -6,6 +6,8 @@ import Hochu from "./components/Hochu";
 import Book from "./components/Book";
 import Song from "./components/Song";
 import Length from "./components/Length";
+import Uppercase from "./components/Uppercase";
+import Lowercase from "./components/Lowercase";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Song sing='Snowman' artist= 'Sia' />
       <Length string='Hello world' />
       <Length string='Example string' />
+      <Uppercase>hello world</Uppercase>
+      <Lowercase>HELLO WORLD</Lowercase>
     </div>
   );
 }
