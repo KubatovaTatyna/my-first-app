@@ -5,7 +5,7 @@ import Chunga from "./components/Chunga";
 import Hochu from "./components/Hochu";
 import Book from "./components/Book";
 import Song from "./components/Song";
-import Length from "./Length";
+import Length from "./components/Length";
 
 function App() {
   return (
