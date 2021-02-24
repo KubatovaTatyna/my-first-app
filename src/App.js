@@ -10,7 +10,8 @@ import Uppercase from "./components/Uppercase";
 import Lowercase from "./components/Lowercase";
 import Age from "./components/Age";
 import Year from "./components/Year";
-
+import Round from "./components/Round";
+import Power from "./components/Power";
 function App() {
   return (
     <div className="App">
@@ -25,9 +26,11 @@ function App() {
       <Length string='Example string' />
       <Uppercase>hello world</Uppercase>
       <Lowercase>HELLO WORLD</Lowercase>
-      <Age year ={1989} />
-      <Age year ={1900} />
-      <Year age = {17}/ >
+      <Age year={1989} />
+      <Age year={1900} />
+      <Year age={17}/ >
+      <Round number={2.3}/ >
+      <Power number={5} to={2}/>
     </div>
   );
 }
