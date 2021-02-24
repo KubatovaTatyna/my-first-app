@@ -8,6 +8,8 @@ import Song from "./components/Song";
 import Length from "./components/Length";
 import Uppercase from "./components/Uppercase";
 import Lowercase from "./components/Lowercase";
+import Age from "./components/Age";
+import Year from "./components/Year";
 
 function App() {
   return (
@@ -23,6 +25,9 @@ function App() {
       <Length string='Example string' />
       <Uppercase>hello world</Uppercase>
       <Lowercase>HELLO WORLD</Lowercase>
+      <Age year ={1989} />
+      <Age year ={1900} />
+      <Year age = {17}/ >
     </div>
   );
 }
