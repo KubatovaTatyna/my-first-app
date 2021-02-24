@@ -12,6 +12,8 @@ import Age from "./components/Age";
 import Year from "./components/Year";
 import Round from "./components/Round";
 import Power from "./components/Power";
+import Switch from "./components/Switch";
+import Water from "./components/Water";
 function App() {
   return (
     <div className="App">
@@ -31,6 +33,9 @@ function App() {
       <Year age={17}/ >
       <Round number={2.3}/ >
       <Power number={5} to={2}/>
+      <Switch on={false}/>
+      <Water frozen={false}/>
+      <Water frozen={true}/>
     </div>
   );
 }
