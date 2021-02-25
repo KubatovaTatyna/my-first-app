@@ -1,4 +1,4 @@
 function Sum(props) {
-    return <div className="person">{props.a + props.b}</div>
+    return <div>{props.a + props.b}</div>
 }
 export default Sum;
