@@ -15,6 +15,10 @@ import Power from "./components/Power";
 import Switch from "./components/Switch";
 import Water from "./components/Water";
 import Sum from "./components/Sum";
+import RandomNumber from "./components/RandomNumber";
+import BiggerNumber from "./components/BiggerNumber";
+import ListItems from "./components/ListItems";
+
 function App() {
   return (
     <div className="App">
@@ -38,6 +42,9 @@ function App() {
       <Water frozen={false}/>
       <Water frozen={true}/>
       <Sum a={5} b={8} />
+      <RandomNumber min={12} max={100} />
+      <BiggerNumber a={9} b={4} />
+      <ListItems list={["Apple ", "Orange ", "Lime ", "Banana "]} />
     </div>
   );
 }
