@@ -14,6 +14,7 @@ import Round from "./components/Round";
 import Power from "./components/Power";
 import Switch from "./components/Switch";
 import Water from "./components/Water";
+import Sum from "./components/Sum";
 function App() {
   return (
     <div className="App">
@@ -36,6 +37,7 @@ function App() {
       <Switch on={false}/>
       <Water frozen={false}/>
       <Water frozen={true}/>
+      <Sum a={5} b={8} />
     </div>
   );
 }
