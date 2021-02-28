@@ -4,8 +4,6 @@ const List = (props) => {
         list.push(<li>{props.items[i]}</li>)
     }
 
-    return <ul>
-        {list}
-    </ul>
+    return <ul>{list}</ul>
 }
 export default List;
