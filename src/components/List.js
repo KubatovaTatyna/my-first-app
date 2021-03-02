@@ -1,9 +1,18 @@
-const List = (props) => {
-    let list = [];
-    for (let i = 0; i < props.items.length; i++) {
-        list.push(<li>{props.items[i]}</li>)
-    }
+import { useState } from "react"
 
-    return <ul>{list}</ul>
+function List() {
+    let [list, setList] = useState(["Apple"]);
+    let [li , setLi] = useState('')
+    return (
+        <div className="List">
+            <ul><li>{list}</li></ul>
+            <input 
+            type="text" 
+            placeholder="Enter Text"
+            >
+            </input>
+            <button>Add</button>
+        </div>
+    )
 }
 export default List;
