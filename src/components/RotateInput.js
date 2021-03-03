@@ -10,11 +10,13 @@ function RotateInput( { value }) {
          transform: `rotate(${rotate}deg)`
          }}>
         </div>
+        <br></br>
         <input type="range"
+        min={0} 
+        max={360}
         value={rotate}
-        min="0" 
-        max="360"
         onInput={({target}) => setRotate(target.value)}/>
+        {rotate} / {360} degs
         </div>
     );
 }
