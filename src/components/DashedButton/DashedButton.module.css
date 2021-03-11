@@ -1,0 +1,9 @@
+.DashedButton{
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border: 4px dashed red;
+    color: black;
+    cursor: pointer;
+}
