@@ -1,0 +1,9 @@
+.BackgroundButton{
+    margin-left: 10px;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(245, 187, 187);
+    border: 1px solid rgb(245, 187, 187);
+    color: black;
+    cursor: pointer;
+}
