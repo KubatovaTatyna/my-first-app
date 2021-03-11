@@ -1,0 +1,9 @@
+.BorderSolid{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: #fffccd;
+    border: 4px solid #f3dd14f6;
+    color: #f3dd14f6;
+    cursor: pointer;
+}
