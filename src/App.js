@@ -29,8 +29,8 @@ function App() {
     { name: "Chyngyz", io:"https://github.com/chyngyzbekbolotov003/chyngyzbekbolotov003.github.io", github:"https://github.com/chyngyzbekbolotov003", role: "Student", wpm: 36, commits: 559 },
   ];
 
-  // const students = persons.filter(person => person.role == "Student");
-  // const fast = students.filter(person => person.wpm > 34);
+  const students = persons.filter(person => person.role == "Student");
+  const fast = students.filter(person => person.wpm > 34);
   return (
     <div className="App">
       <PersonList persons={persons} />
