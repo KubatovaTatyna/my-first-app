@@ -1,6 +1,50 @@
-.App{
-    display: flex;
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+body{
+    background-color: #f2f3f4;
 }
-.highlight{
-    background-color: yellow;
+.input{
+    width: 70px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.App{
+    text-align: center;
+    margin-top: 6.8rem;
+    font-family: 'New Tegomin', serif;
+    font-size: 35px;
+}
+.ok{
+    width: 40px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    border: 3px solif black;
+    border-radius: 10px;
+}
+h1{
+    width: 500px;
+    border-radius: 10px;
+    margin:0 auto;
+    text-align: center;
+}
+.restart{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.restart:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.coin{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
 }

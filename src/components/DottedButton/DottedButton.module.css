@@ -1,9 +1,0 @@
-.DottedButton{
-    margin-left: 10px;
-    width: 100px;
-    height: 50px;
-    background-color: white;
-    border: 4px dotted green;
-    color: blue;
-    cursor: pointer;
-}
