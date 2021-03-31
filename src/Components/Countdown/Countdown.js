@@ -4,7 +4,6 @@ import timer from "../../img/timer.svg"
 const Countdown = ({ countdown, setCountdown }) => {
   useEffect(() => {
     if (!countdown) return;
-    
     const interval = setInterval(function() {
       setCountdown(countdown - 1);
     }, 1000);

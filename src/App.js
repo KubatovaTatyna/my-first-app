@@ -80,7 +80,7 @@ const App = () => {
       <h3><Countdown countdown={countdown} setCountdown={setCountdown} /></h3>
       {userInput}
       <br />
-      <span><img src={coin} className="coin"/>:{points}</span>
+      <span>Your points:{points} <img src={coin} className="coin"/></span>
     </div>
   );
   
